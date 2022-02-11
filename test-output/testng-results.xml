@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-11T13:25:13 IST" name="Default suite" finished-at="2022-02-11T13:30:01 IST" duration-ms="288840">
+    <groups>
+    </groups>
+    <test started-at="2022-02-11T13:25:13 IST" name="Default test" finished-at="2022-02-11T13:30:01 IST" duration-ms="288840">
+      <class name="com.SignIn.SignInTest">
+        <test-method signature="VerifyEnterEmailIdIsValid(java.lang.String,java.lang.String)[pri:0, instance:com.SignIn.SignInTest@550dbc7a]" started-at="2022-02-11T13:25:13 IST" name="VerifyEnterEmailIdIsValid" data-provider="excel-data" finished-at="2022-02-11T13:30:01 IST" duration-ms="288432" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void com.SignIn.SignInTest.VerifyEnterEmailIdIsValid(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: VerifyEnterEmailIdIsValid([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) zurungebhakti@gmail.com,(java.lang.Integer) 468735432]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.SignIn.SignInTest.VerifyEnterEmailIdIsValid(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: VerifyEnterEmailIdIsValid([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) zurungebhakti@gmail.com,(java.lang.Integer) 468735432]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnterEmailIdIsValid -->
+        <test-method is-config="true" signature="loginURL()[pri:0, instance:com.SignIn.SignInTest@550dbc7a]" started-at="2022-02-11T13:25:18 IST" name="loginURL" finished-at="2022-02-11T13:28:58 IST" duration-ms="219334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginURL -->
+        <test-method signature="VerifyEnterEmailIdIsValid(java.lang.String,java.lang.String)[pri:0, instance:com.SignIn.SignInTest@550dbc7a]" started-at="2022-02-11T13:28:58 IST" name="VerifyEnterEmailIdIsValid" data-provider="excel-data" finished-at="2022-02-11T13:29:19 IST" duration-ms="21537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhaktizurunge@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ijmeetbhakti@02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnterEmailIdIsValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SignIn.SignInTest@550dbc7a]" started-at="2022-02-11T13:29:19 IST" name="tearDown" finished-at="2022-02-11T13:29:26 IST" duration-ms="6883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginURL()[pri:0, instance:com.SignIn.SignInTest@550dbc7a]" started-at="2022-02-11T13:29:26 IST" name="loginURL" finished-at="2022-02-11T13:29:48 IST" duration-ms="21436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginURL -->
+        <test-method signature="VerifyEnterEmailIdIsValid(java.lang.String,java.lang.String)[pri:0, instance:com.SignIn.SignInTest@550dbc7a]" started-at="2022-02-11T13:29:48 IST" name="VerifyEnterEmailIdIsValid" data-provider="excel-data" finished-at="2022-02-11T13:29:54 IST" duration-ms="6108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123@bgggmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abjgytdd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnterEmailIdIsValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SignIn.SignInTest@550dbc7a]" started-at="2022-02-11T13:29:54 IST" name="tearDown" finished-at="2022-02-11T13:30:01 IST" duration-ms="7283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SignIn.SignInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
