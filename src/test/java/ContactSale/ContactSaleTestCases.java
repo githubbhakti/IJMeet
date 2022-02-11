@@ -10,8 +10,7 @@ import com.ijmeet.constants.Locators;
 import com.signup.SignUpTestCases;
 
 public class ContactSaleTestCases {
-	@Test
-public void verrifyName() {
+	
 		
 		private static final Logger log=Logger.getLogger(ContactSaleTestCases.class);
 		/**
@@ -19,14 +18,18 @@ public void verrifyName() {
 		 * @param companyName
 		 */
 		@Test(enabled=false)
-		public void name(String name) {
+		public void fullName(String name) {
 			click(Locators.signUpButton);
 			enterText(Locators.fullName, name);
-			
+			System.out.println("name");
 
 		}
+			
+			
+
+		
 
 		
 	}
 
-}
+
