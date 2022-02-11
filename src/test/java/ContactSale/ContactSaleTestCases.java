@@ -21,7 +21,7 @@ public class ContactSaleTestCases {
 		public void fullName(String name) {
 			click(Locators.signUpButton);
 			enterText(Locators.fullName, name);
-			System.out.println("name");
+			
 
 		}
 			
